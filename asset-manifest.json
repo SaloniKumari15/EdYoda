@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/EdYoda_assignment/static/css/main.9ae789f7.css",
+    "main.js": "/EdYoda_assignment/static/js/main.8ecb8846.js",
+    "static/media/BackGround.png": "/EdYoda_assignment/static/media/BackGround.a86e862d2c35475d14ea.png",
+    "static/media/Raleway-Regular.ttf": "/EdYoda_assignment/static/media/Raleway-Regular.cedc82ec9fbfca66222a.ttf",
+    "static/media/Roboto-Regular.ttf": "/EdYoda_assignment/static/media/Roboto-Regular.160d7a6ac26376e5e977.ttf",
+    "index.html": "/EdYoda_assignment/index.html",
+    "main.9ae789f7.css.map": "/EdYoda_assignment/static/css/main.9ae789f7.css.map",
+    "main.8ecb8846.js.map": "/EdYoda_assignment/static/js/main.8ecb8846.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ae789f7.css",
+    "static/js/main.8ecb8846.js"
+  ]
+}
