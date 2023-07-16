@@ -1,0 +1,226 @@
+.subMainContainer {
+  display: flex;
+  width: 549px;
+  padding: 32px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.subMiddleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.SubBottomContainer {
+  display: flex;
+  padding: 16px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  border-top: 2px solid #bebebe;
+  background: #fff;
+}
+
+.SubBottomContainer-top {
+  display: flex;
+  height: 24px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  color: #3c4852;
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.SubBottomContainer-top .extraBold {
+  color: #3c4852;
+  text-align: center;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0.72px;
+}
+
+.SubBottomContainer-middle {
+  display: flex;
+  width: 501px;
+  padding: 12px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  border-radius: 8px;
+  background: linear-gradient(
+    135deg,
+    rgba(222, 67, 19, 0.2) 0%,
+    rgba(222, 67, 19, 0.2) 0.75%,
+    rgba(222, 67, 19, 0.2) 2.92%,
+    rgba(222, 68, 20, 0.2) 6.37%,
+    rgba(223, 69, 21, 0.2) 10.97%,
+    rgba(223, 72, 22, 0.2) 16.59%,
+    rgba(224, 75, 24, 0.2) 23.1%,
+    rgba(225, 80, 27, 0.2) 30.37%,
+    rgba(227, 86, 31, 0.2) 38.27%,
+    rgba(229, 94, 36, 0.2) 46.66%,
+    rgba(231, 104, 43, 0.2) 55.41%,
+    rgba(235, 117, 51, 0.2) 64.39%,
+    rgba(238, 132, 60, 0.2) 73.47%,
+    rgba(243, 149, 71, 0.2) 82.52%,
+    rgba(248, 169, 84, 0.2) 91.41%,
+    rgba(254, 193, 99, 0.2) 100%
+  );
+  border: 2px solid #de4313;
+}
+
+.sbc-m-t {
+  color: #de4313;
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  display: flex;
+  height: 24px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.sbc-m-t span {
+  color: #3c4852;
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0.48px;
+}
+
+.sbc-m-b {
+  color: #de4313;
+  text-align: center;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.subButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.btn {
+  display: flex;
+  height: 56px;
+  padding: 10px 42px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.warning {
+  border-radius: 4px;
+  border: 2px solid #f77171;
+  color: #f77171;
+  background: none;
+  transition: all 0.3s;
+}
+.warning:hover {
+  color: #fff;
+  background: #f77171;
+  transition: all 0.3s;
+}
+
+.success {
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  background: #47ba68;
+}
+
+.subFooterIcon {
+  width: 120px;
+  height: 42.688px;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  background-image: url("../assets/razyorpay.png");
+}
+
+.subTopContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 160px;
+  align-self: stretch;
+}
+
+.stc {
+  display: flex;
+  width: 80px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  color: #3c4852;
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.16px;
+}
+
+.stc div {
+  display: flex;
+  width: 38px;
+  height: 38px;
+  padding: 7px;
+  margin-bottom: 4px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -0.36px;
+  border-radius: 1000px;
+  background: #0096ff;
+}
