@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Live link:-https://salonikumari15.github.io/EdYoda/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
